@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+
+  frontend:
+    hostname: frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: front-fast-jobs-c
+    expose:
+      - 3000
+
+
+
+
